@@ -9,6 +9,5 @@ class RestaurantsController < ApplicationController
 
   def new
     @restaurant = Restaurant.new
-    redirect_to restaurant_path(@restaurant)
   end
 end
